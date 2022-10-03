@@ -142,7 +142,6 @@ namespace InfoBar
                 MessageLabel.UpdateLayout();
                 this.Height = 55 + (this.MessageLabel.ActualHeight) - 15;
             }
-           
             ShowHideAnimation(true, position);
         }
 
