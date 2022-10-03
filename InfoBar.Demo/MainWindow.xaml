@@ -1,0 +1,101 @@
+﻿<Window
+    x:Class="InfoBar.Demo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:InfoBar="clr-namespace:InfoBar;assembly=InfoBar"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:InfoBar.Demo"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Background="{DynamicResource ThemeBase}"
+    mc:Ignorable="d">
+    <Grid>
+        <Button
+            Width="90"
+            Height="40"
+            Margin="155,129,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Button_Click"
+            Content="Short critical" />
+        <Button
+            Width="90"
+            Height="40"
+            Margin="281,129,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Button_Click_1"
+            Content="Short success" />
+        <Button
+            Width="90"
+            Height="40"
+            Margin="416,129,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Button_Click_2"
+            Content="Short caution" />
+        <Button
+            Width="90"
+            Height="40"
+            Margin="560,129,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Button_Click_3"
+            Content="Short attention" />
+        <Button
+            Width="90"
+            Height="40"
+            Margin="155,0,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            Click="Button_Click_4"
+            Content="Long critical" />
+        <Button
+            Width="90"
+            Height="40"
+            Margin="281,0,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            Click="Button_Click_5"
+            Content="Long success" />
+        <Button
+            Width="90"
+            Height="40"
+            Margin="416,0,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            Click="Button_Click_6"
+            Content="Long caution" />
+        <Button
+            Width="90"
+            Height="40"
+            Margin="560,0,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            Click="Button_Click_7"
+            Content="Long attention" />
+
+        <Button
+            Width="90"
+            Height="40"
+            Margin="584,340,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Button_Click_8"
+            Content="Change theme" />
+        <Button
+            Width="114"
+            Height="40"
+            Margin="150,335,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Button_Click_9"
+            Content="Bottom message" />
+        <InfoBar:InfoBarBox
+            x:Name="InfoBarBox"
+            Margin="0,-79,0,0"
+            VerticalAlignment="Top" />
+    </Grid>
+</Window>
