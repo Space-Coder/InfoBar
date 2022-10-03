@@ -51,7 +51,7 @@ xmlns:InfoBar="clr-namespace:InfoBar;assembly=InfoBar"
 ```
 
 ## Example screenshots
-![Image alt](https://github.com/Space-Coder/InfoBar/picture1.png)
-![Image alt](https://github.com/Space-Coder/InfoBar/picture2.png)
-![Image alt](https://github.com/Space-Coder/InfoBar/picture3.png)
-![Image alt](https://github.com/Space-Coder/InfoBar/picture4.png)
+![Image alt](https://github.com/Space-Coder/InfoBar/raw/master/picture1.png)
+![Image alt](https://github.com/Space-Coder/InfoBar/raw/master/picture2.png)
+![Image alt](https://github.com/Space-Coder/InfoBar/raw/master/picture3.png)
+![Image alt](https://github.com/Space-Coder/InfoBar/raw/master/picture4.png)
