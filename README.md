@@ -3,11 +3,30 @@
 ____
 ## How to use
 - Install [NuGet](https://www.nuget.org/packages/InfoBar) package in your WPF Application.
-- Add this code in MainWindow.xaml.
+- Add this code in **MainWindow.xaml**.
 
 ```XML
 xmlns:InfoBar="clr-namespace:InfoBar;assembly=InfoBar"
 ```
+- Add resource dictionary in **App.xaml**.
+
+``` XML
+<Application
+    x:Class="InfoBar.Demo.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:InfoBar.Demo"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/InfoBar;component/Resources/Theme.Light.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+```
+
 - Create InfoBar element and set x:Name property.
 
 ```XML
