@@ -2,7 +2,7 @@
 [![NuGet version](https://badge.fury.io/nu/InfoBar.svg)](https://badge.fury.io/nu/InfoBar)
 ____
 ## How to use
-- Install NuGet package in your WPF Application.
+- Install [NuGet](https://www.nuget.org/packages/InfoBar) package in your WPF Application.
 - Add this code in MainWindow.xaml.
 
 ```XML
